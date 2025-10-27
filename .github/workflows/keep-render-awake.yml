@@ -2,8 +2,8 @@ name: Keep Render Awake
 
 on:
   schedule:
-    # Run every 10 minutes to prevent Render free tier sleep
-    - cron: "*/10 * * * *"
+    # Run every 5 minutes to prevent Render free tier sleep
+    - cron: "*/5 * * * *"
   # Allow manual trigger
   workflow_dispatch: {}
 
